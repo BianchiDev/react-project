@@ -6,12 +6,12 @@ export default function usandoTitulo(){
             <Titulo
             Titulo = "Página de cadastro"
             Subtitulo = "Incluir, alterar e excluir"
-            pequeno = {true}
+           /* e'entendido que o valor pequeno esta false */
             />
              <Titulo
             Titulo = "Página de cadastro"
             Subtitulo = "Incluir, alterar e excluir"
-            pequeno={false}
+            pequeno /* endende-se que por esta aqui mesmo sem definir true ou false ele é verdadeiro */
             />
              <Titulo
             Titulo = "Página de cadastro"

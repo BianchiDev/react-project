@@ -1,0 +1,13 @@
+/* quando for usar especificide (integracao 1) 
+usar espaco entre o ponto e a classe pai */
+
+.integracao1 .vermelho{ 
+    color: brown; 
+}
+.integracao1 .azul{
+    color: blue;
+}
+.integracao1 .branco{
+    color: white;
+    background-color: black;
+}
