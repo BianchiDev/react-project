@@ -11,7 +11,8 @@ export default function Repeticao1(){
 
     function renderizarLista(){
        
-        return listaAprovados.map((nome, i)=> <li key={i}>{nome}</li>)
+        return listaAprovados.map((nome, i) => 
+        <li key={i}>{nome}</li>)
     }
 
    return(
