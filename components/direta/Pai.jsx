@@ -7,7 +7,7 @@ export default function Pai(props){
           <Filho nome="Kayky" familia={props.familia}/>
           <Filho nome="Pedro" familia ={props.familia}/>
           <Filho nome="Sara" familia={props.familia}/>
-          <Filho nome="Iara" {...props}/> {/* Operador spreids */}
+          <Filho nome="Iara" {...props}/> {/* Operador spreids  */}
         </div>
     )
 }
