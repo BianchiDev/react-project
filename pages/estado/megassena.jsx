@@ -1,13 +1,15 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import NumeroDisplay from "../../components/indireta1/NumeroDisplay"
 import { mega } from "../../function/mega"
 
 export default function megassena(){
 
     const [ qtde , setQtde] = useState(6)
-    const [ numeros , setNumeros] = useState(mega(qtde))
+    const [ numeros , setNumeros] = useState([])
 
-
+    useEffect(() => {
+        setNumeros(mega())
+    }, [])
 
     function renderNumeros(){
         return numeros.map(

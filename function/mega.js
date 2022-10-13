@@ -1,7 +1,7 @@
  export function mega(quantidade = 6, numeros = []){
    /*  console.log(numeros) */
     let qtde = +quantidade
-    /* Convertendo a estring (qtde) em numérico (+qtde) */
+    /* Convertendo a estring (qtde) em numérico (+quantidade) */
     if(qtde < 6 && qtde > 60){
         throw "Quantidade inválida!"
     }
